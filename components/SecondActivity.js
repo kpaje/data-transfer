@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-	StyleSheet,
-	TextInput,
-	View,
-	TouchableOpacity,
-	Text
-} from "react-native";
-import { StackNavigator } from "react-navigation";
+import { StyleSheet, View, Text } from "react-native";
 
 class SecondActivity extends Component {
 	static navigationOptions = {
@@ -31,36 +24,6 @@ class SecondActivity extends Component {
 export default SecondActivity;
 
 const styles = StyleSheet.create({
-	MainContainer: {
-		alignItems: "center",
-		flex: 1,
-		margin: 10
-	},
-
-	textInputStyle: {
-		height: 40,
-		width: "90%",
-		textAlign: "center",
-		borderWidth: 1,
-		borderColor: "#028b53",
-		borderRadius: 8,
-		marginTop: 15
-	},
-
-	button: {
-		width: "90%",
-		height: 40,
-		padding: 10,
-		backgroundColor: "#4CAF50",
-		borderRadius: 8,
-		marginTop: 15
-	},
-
-	buttonText: {
-		color: "#fff",
-		textAlign: "center"
-	},
-
 	textStyle: {
 		color: "#000",
 		textAlign: "center",

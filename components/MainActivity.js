@@ -6,8 +6,6 @@ import {
 	TouchableOpacity,
 	Text
 } from "react-native";
-import { StackNavigator } from "react-navigation";
-import SecondActivity from "./SecondActivity";
 
 class MainActivity extends Component {
 	static navigationOptions = {
@@ -63,10 +61,6 @@ class MainActivity extends Component {
 }
 
 export default MainActivity;
-export default (Project = StackNavigator({
-	First: { screen: MainActivity },
-	Second: { screen: SecondActivity }
-}));
 
 const styles = StyleSheet.create({
 	MainContainer: {
@@ -97,11 +91,5 @@ const styles = StyleSheet.create({
 	buttonText: {
 		color: "#fff",
 		textAlign: "center"
-	},
-
-	textStyle: {
-		color: "#000",
-		textAlign: "center",
-		fontSize: 20
 	}
 });

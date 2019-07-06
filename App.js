@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import MainActivity from "./components/MainActivity";
+import Navigator from "./navigation/navigator";
 
 export default class App extends React.Component {
 	render() {
-		return <MainActivity />;
+		return <Navigator />;
 	}
 }
