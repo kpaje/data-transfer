@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navigator from "./navigation/navigator";
+import MainApp from "./navigation/bottomTabNavigator";
 
 export default class App extends React.Component {
 	render() {
-		return <Navigator />;
+		return <MainApp />;
 	}
 }

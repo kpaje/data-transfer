@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Text } from "react-native";
 
-class SecondActivity extends Component {
+export default class SecondActivity extends Component {
 	static navigationOptions = {
 		title: "SecondActivity"
 	};
@@ -9,6 +9,7 @@ class SecondActivity extends Component {
 	render() {
 		return (
 			<View style={styles.MainContainer}>
+				<Text>SECOND ACTIVITY SCREEN</Text>
 				<Text style={styles.textStyle}>
 					Name = {this.props.navigation.state.params.NameOBJ}
 				</Text>
@@ -20,8 +21,6 @@ class SecondActivity extends Component {
 		);
 	}
 }
-
-export default SecondActivity;
 
 const styles = StyleSheet.create({
 	textStyle: {

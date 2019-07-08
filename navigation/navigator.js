@@ -1,6 +1,6 @@
 import { createStackNavigator, createAppContainer } from "react-navigation";
-import SecondActivity from "../components/SecondActivity";
-import MainActivity from "../components/MainActivity";
+import SecondActivity from "../screens/SecondActivity";
+import MainActivity from "../screens/MainActivity";
 
 const AppNavigator = createStackNavigator({
 	First: { screen: MainActivity },
